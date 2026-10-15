@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "workiva": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/ABSOLUTE/PATH/TO/workiva-mcp-sc",
+        "run",
+        "workiva_server.py"
+      ],
+      "env": {
+        "WORKIVA_CLIENT_ID": "YOUR_CLIENT_ID",
+        "WORKIVA_CLIENT_SECRET": "YOUR_CLIENT_SECRET",
+        "WORKIVA_ORG_ID": "YOUR_ORG_ID",
+        "WORKIVA_WORKSPACE_ID": "YOUR_WORKSPACE_ID",
+        "WORKIVA_READ_ONLY": "false"
+      }
+    }
+  }
+}

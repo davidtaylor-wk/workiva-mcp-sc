@@ -1,0 +1,13 @@
+[project]
+name = "workiva-mcp-sc"
+version = "0.1.0"
+description = "Local MCP server for Workiva's public Platform API, for use with Claude Desktop"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0,<3",
+    "httpx>=0.27,<1",
+    "python-dotenv>=1.0,<2",
+]
+
+[tool.uv]
+package = false
